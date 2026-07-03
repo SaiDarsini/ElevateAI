@@ -1,0 +1,6 @@
+{
+  "name": "ElevateAI",
+  "description": "Smart Multi-Agent Career Assistant and Netflix-style dashboard for resume analysis, skill auditing, company target recommendations, and interview preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

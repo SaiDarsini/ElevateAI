@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+crewai
+crewai-tools
+python-multipart
+pdfplumber
+pydantic
+google-generativeai
