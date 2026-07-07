@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+---
+title: ElevateAI Backend
+emoji: 🚀
+colorFrom: indigo
+colorTo: emerald
+sdk: docker
+app_port: 7860
+---
 
-# Run and deploy your AI Studio app
+# ElevateAI 🚀
+### Smart Multi-Agent Career Assistant & Resume Auditor
 
-This contains everything you need to run your app locally.
+ElevateAI is a full-stack production application designed to elevate resumes to premium standards. It features a coordinated network of specialized AI agents that audit technical skills, predict real-world recruiter ATS scanning compatibility, and generate an actionable 7-day preparation roadmap.
 
-View your app in AI Studio: https://ai.studio/apps/f4733acd-432d-4060-8052-a4b4c71ab887
+Live Application UI: [https://elevate-ai-three-neon.vercel.app/](https://elevate-ai-three-neon.vercel.app/)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack & Architecture
 
+* **Frontend:** React, TypeScript, Vite, Tailwind CSS, Lucide Icons, Framer Motion
+* **Backend:** Python, FastAPI, Uvicorn, Docker
+* **Database:** PostgreSQL (Hosted securely on Supabase)
+* **AI Core:** Google Gemini API (Multi-Agent Simulation Coordinator)
+* **Deployment:** 
+  * Frontend: Vercel
+  * Backend: Hugging Face Spaces (Docker Container)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Local Development Setup
+
+### Prerequisites
+* Node.js (v18+)
+* Python 3.10+
+
+### 1. Clone & Install Frontend Dependencies
+```bash
+npm install
