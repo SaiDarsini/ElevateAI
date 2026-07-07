@@ -11,7 +11,7 @@ from dotenv import load_dotenv  # <-- ADD THIS LINE
 
 # Load the variables from your .env file into the system environment
 load_dotenv()
-
+DATABASE_URL = os.getenv("DATABASE_URL")
 app = FastAPI(title="ElevateAI API Services")
 
 # Enable CORS so your React Vite frontend can safely talk to this backend
